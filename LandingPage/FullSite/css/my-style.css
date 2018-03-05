@@ -1,0 +1,244 @@
+/* ================================= */
+
+/*===== Typography =====*/
+
+/* ================================= */
+
+body .my-team {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.7;
+}
+
+.my-team h1,
+.my-team h2,
+.my-team h3,
+.my-team h4,
+.my-team h5,
+.my-team h6 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	line-height: 1.3;
+}
+
+.my-team h1 {
+	font-size: 46px;
+}
+
+.my-team h2 {
+	font-size: 38px;
+}
+
+.my-team h3 {
+	font-size: 33px;
+}
+
+.my-team h4 {
+	font-size: 28px;
+}
+
+.my-team h5 {
+	font-size: 23px;
+}
+
+.my-team h6 {
+	font-size: 18px;
+}
+
+.my-team ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.my-team p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	line-height: 1.7;
+}
+
+.my-section-title {
+	color: #666;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.my-style-opt {
+	margin: 20px 0;
+}
+
+.my-no-grid .col-md-2,
+.my-no-grid .col-md-3,
+.my-no-grid .col-md-4,
+.my-no-grid .col-md-6 {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/* ================================= */
+
+/*===== Button =====*/
+
+/* ================================= */
+
+.my-btn-default,
+.my-btn-lg {
+	color: #3498DB;
+	background-color: transparent;
+	border-radius: 0;
+	border-color: #3498DB;
+	font-weight: 700;
+	border: 2px solid #3498DB;
+	text-transform: uppercase;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+	-moz-transition: 0.5s ease-in-out;
+	-ms-transition: 0.5s ease-in-out;
+	-o-transition: 0.5s ease-in-out;
+}
+
+.my-btn-default:hover,
+.my-btn-lg:hover {
+	color: #FFF;
+	background-color: #3498DB;
+	border-color: #3498DB;
+}
+
+.my-btn-invert {
+	color: #FFF;
+	background-color: #3498DB;
+	border-radius: 0;
+	border-color: #FFF;
+	font-weight: 700;
+	border: 2px solid #FFF;
+	text-transform: uppercase;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+	-moz-transition: 0.5s ease-in-out;
+	-ms-transition: 0.5s ease-in-out;
+	-o-transition: 0.5s ease-in-out;
+}
+
+.my-btn-invert:hover {
+	color: #3498DB;
+	background-color: #FFF;
+	border: 2px solid #FFF;
+}
+
+
+/* ================================= */
+
+/*===== Team Style 41 =====*/
+
+/* ================================= */
+
+.team-style-41 .my-team-block {
+	margin-bottom: 20px;
+}
+
+.team-style-41 .my-team-block:last-of-type {
+	margin-bottom: 0;
+}
+
+.team-style-41 .my-team-member {
+	overflow: hidden;
+	position: relative;
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-ms-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+}
+
+.team-style-41 .my-team-member:hover {
+	box-shadow: 5px 5px 25px rgba(0, 0, 0, .5);
+}
+
+.team-style-41 .my-team-member img {
+	width: 100%;
+}
+
+.team-style-41 .my-team-member .my-team-detail {
+	position: absolute;
+	top: -250px;
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	padding-right: 10px;
+	-webkit-transition: 0.7s ease-in-out;
+	transition: 0.7s ease-in-out;
+	-moz-transition: 0.7s ease-in-out;
+	-ms-transition: 0.7s ease-in-out;
+	-o-transition: 0.7s ease-in-out;
+}
+
+.team-style-41 .my-team-member:hover .my-team-detail {
+	top: 0;
+	opacity: 1;
+}
+
+.team-style-41 .my-member-name,
+.team-style-41 .my-member-post,
+.team-style-41 .my-member-details,
+.team-style-41 .my-member-social {
+	opacity: 0;
+	-webkit-transition: 1.2s ease-in-out;
+	transition: 1.2s ease-in-out;
+	-moz-transition: 1.2s ease-in-out;
+	-ms-transition: 1.2s ease-in-out;
+	-o-transition: 1.2s ease-in-out;
+}
+
+.team-style-41 .my-team-member:hover .my-member-name,
+.team-style-41 .my-team-member:hover .my-member-post,
+.team-style-41 .my-team-member:hover .my-member-details,
+.team-style-41 .my-team-member:hover .my-member-social {
+	opacity: 1;
+}
+
+.team-style-41 .my-team-detail {
+	padding-left: 12px;
+}
+
+.team-style-41 .my-member-name,
+.team-style-41 .my-member-details {
+	color: #232323;
+}
+
+.team-style-41 .my-member-post {
+	color: #232323;
+	font-size: 16px;
+}
+
+.team-style-41 .my-member-social li {
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.team-style-41 .my-member-social li:first-child {
+	margin: 0 0;
+}
+
+.team-style-41 .my-member-social li a {
+	display: block;
+	width: 34px;
+	height: 34px;
+	line-height: 32px;
+	text-align: center;
+	color: #232323;
+	border: #232323 1px solid;
+}
+
+.team-style-41 .my-member-social li a:hover {
+	color: #FFF;
+	background-color: #3498DB;
+	border: #3498DB 1px solid;
+}
+
+@media(min-width:992px) {
+	.team-style-41 .my-team-block {
+		margin-bottom: 0;
+	}
+}
